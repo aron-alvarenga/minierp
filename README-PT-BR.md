@@ -2,7 +2,7 @@
 
 > **Monólito Modular** - Um ERP completo e profissional demonstrando arquitetura de software de nível pleno/sênior.
 
-[![Java](https://img.shields.io/badge/Java-25-orange.svg)](https://www.oracle.com/java/)
+[![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.1-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -121,7 +121,7 @@ flowchart TB
 ## Stack Tecnológica
 
 ### Core
-- **Java 25 LTS** - Linguagem de programação (recomendado; Spring Boot 4.0.1 requer Java 17+)
+- **Java 21 LTS** - Linguagem de programação (recomendado; Spring Boot 4.0.1 requer Java 17+)
 - **Spring Boot 4.0.1** - Framework principal
 - **Spring Security** - Autenticação e autorização
 - **Spring Data JPA** - Persistência de dados
@@ -190,7 +190,7 @@ minierp/
 
 ### Pré-requisitos
 
-- **Java 17+** (recomendado: **Java 25 LTS**)
+- **Java 17+** (recomendado: **Java 21 LTS**)
   - Spring Boot 4.0.1 requer Java 17 ou superior
 - **Gradle** (ou use o wrapper: `./gradlew`)
 - **Docker** e **Docker Compose** (para PostgreSQL - opcional, pode usar H2)
